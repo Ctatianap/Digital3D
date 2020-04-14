@@ -1,0 +1,78 @@
+html, body{
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    flex-direction: column;
+    margin: auto;
+
+}
+
+.border{
+    border: solid 1px black;
+    padding: 15px;
+}
+h2 {
+    margin: auto;
+}
+
+.logotipo{
+    display: flex;
+    justify-content: center;
+}
+
+.rowOne, .rowThreeOne, .rowFifth{
+    display: flex;
+    flex-direction: row;
+}
+
+.rowThree{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+#ceo, #nuestraEmpresa, #cotizador{
+    display: flex;
+    background-color: rgb(94, 84, 139);
+    width: 200px;
+    height: 1.5em;
+    border-radius: 5px;
+    justify-content: center;
+    
+
+
+}
+.rowTwo, .rowFourth, .rowSixth {
+    background-color: rgb(106, 154, 209);
+    color: white;
+    align-items: center;
+}
+
+.rowPhoto, .rowPhotoOfice{
+    display: flex;
+    flex-basis:  40%;
+   
+}
+.photo, .photoOfice{
+    display: flex;
+    padding: 20px;
+    max-width: 300px;;
+}
+
+.litografico, .tienda, .web{
+    background-color: orange;
+    color: white;
+    border: solid 2px rgb(106, 154, 209);
+    width: 200px;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+
