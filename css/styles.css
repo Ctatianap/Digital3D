@@ -53,8 +53,13 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+   
     
 
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 #ceo, #nuestraEmpresa, #cotizador{
     display: flex;
@@ -63,7 +68,8 @@ header{
     height: 1.5em;
     border-radius: 5px;
     justify-content: center;
-   
+    align-items: center;
+       
 }
 
 #ceo:hover, #nuestraEmpresa:hover, #cotizador:hover{
@@ -86,7 +92,9 @@ header{
     padding: 20px;
     max-width: 300px;
 }
-
+.helpYou{
+    margin: auto;
+}
 .litografico, .tienda, .web{
     background-color: orange;
     color: white;
