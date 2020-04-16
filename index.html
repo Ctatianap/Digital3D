@@ -14,23 +14,14 @@
         <div class="header">
             <div class="logotipo border">
                 <img class="logo" src="imagenes/logo.png">
-
             </div>
+
             <nav class="menu border">
-
-                <div id="ceo">
-                    <a href="#">CEO</a>
-                </div>
-                <div id="nuestraEmpresa">
-                    <a href="#">Nuestra Empresa</a>
-
-                </div>
-                <div id="cotizador">
-                    <a href="#">Cotizador</a>
-
-                </div>
-
+                <a class="menu_activo" href="/#whoAm">CEO</a>
+                <a class="menu_activo" href="/#whoAre">Nuestra Empresa</a>
+                <a class="menu_activo" href="/#cotizador">Cotizador</a>
             </nav>
+
         </div>
     </header>
     <!-- Main 8 Sesiones-->
@@ -40,7 +31,7 @@
                 <img class="photo" src="imagenes/unnamed.jpg">
 
             </div>
-            <article class="whoAm">
+            <article id="whoAm">
 
                 <h1 class="no-margin-bottom">Hola, soy <i>Carlos David Pérez</i></h1>
                 <small>Y SOY DISEÑADOR GRÁFICO</small>
@@ -63,16 +54,18 @@
         <section class="rowTwo border">
             <article class="whatIDo">
                 <h3 class="no-margin-bottom">¿A qué me dedico?</h2>
-                <hr class="hr-tittle">
-                <p> Actualmente, me dedico profesionalmente al diseño web con WordPress a tiempo completo. Es un trabajo
-                    que me encanta y que me permite disfrutar, por fin, de pasar horas y horas delante del ordenador,
-                    cosa que nunca antes me había sucedido.</p>
-                <p>A lo largo de este tiempo, he podido trabajar con más de 30 clientes de alrededor del país y del
-                    mundo, y he creado y diseñado más de 60 webs, gracias a lo cual he ido mejorando cada día más,
-                    perfeccionando la técnica y la creatividad a la hora de realizar nuevos proyectos. </p>
-                <p>Realizo webs para particulares y empresas, sin importar su tamaño, aunque también colaboro
-                    directamente con agencias que necesitan externalizar el diseño web y deciden contar conmigo para
-                    crear las webs de sus clientes. Sea cual sea tu caso, no dudes en contactarme. </p>
+                    <hr class="hr-tittle">
+                    <p> Actualmente, me dedico profesionalmente al diseño web con WordPress a tiempo completo. Es un
+                        trabajo
+                        que me encanta y que me permite disfrutar, por fin, de pasar horas y horas delante del
+                        ordenador,
+                        cosa que nunca antes me había sucedido.</p>
+                    <p>A lo largo de este tiempo, he podido trabajar con más de 30 clientes de alrededor del país y del
+                        mundo, y he creado y diseñado más de 60 webs, gracias a lo cual he ido mejorando cada día más,
+                        perfeccionando la técnica y la creatividad a la hora de realizar nuevos proyectos. </p>
+                    <p>Realizo webs para particulares y empresas, sin importar su tamaño, aunque también colaboro
+                        directamente con agencias que necesitan externalizar el diseño web y deciden contar conmigo para
+                        crear las webs de sus clientes. Sea cual sea tu caso, no dudes en contactarme. </p>
 
             </article>
 
@@ -140,7 +133,7 @@
                 <img class="photoOfice" src="imagenes/oficina-promo-750x430.jpg">
 
             </div>
-            <article class="whoAre">
+            <article id="whoAre">
 
                 <h3 class="no-margin-bottom">Quiénes Somos?</h3>
                 <small>DISEÑO DIGITAL 3D </small>
@@ -196,20 +189,30 @@
                         <td>5656</td>
                         <td>juli_ortiz@kmsoft.com</td>
                     </tr>
-                    
+
                 </table>
             </div>
 
         </section>
-        <section class="rowEigth border">
+        <section class="rowEigth border" id="cotizador">
             <p>Realice una cotización de un pedido. con el valor unitario que usted concidere conveniente.</p>
             <form class="form">
-                <p>Cantidad: <input type="number" min="0" name="cantidad"></p>
-                <p>Valor unitario: <input type="number" min="0" name="valorUnidad"></p>
-                <p>Valor Total </p>
-                <p>Descripción del pedido</p>
-                <textarea name="descripcion"></textarea>
-                <p><input type="submit" value="enviar"></p>
+                <div class="formLeft">
+                    <p>Cantidad: </p>
+                    <p>Valor unitario: </p>
+                    <p>Valor Total </p>
+
+                </div>
+                <div class="formRigth">
+                    <p><input type="number" min="0" name="cantidad"></p>
+                    <p><input type="number" min="0" name="valorUnidad"></p>
+                    <p>0 . 0</p>
+                </div>
+                <div class="formCenter">
+                    <p>Descripción del pedido</p>
+                    <textarea name="descripcion"></textarea>
+                    <p><input type="submit" value="enviar"></p>
+                </div>
 
             </form>
         </section>
@@ -218,7 +221,7 @@
         <div class="footer border">
             <p>Copyright &copy;2020 | Medellín </p> -
             <a href="https://www.antioquia.gov.co/" target="_blank">Antioquia</a> |
-            <a href="#"> Nuestra Empresa</a> |
+            <a href="/#whoAre"> Nuestra Empresa</a> |
             <a href="#"> Contacto</a>
 
         </div>

@@ -25,7 +25,11 @@ main{
 }
 
 .rowOne{
-    padding-top: 202px;
+    padding-top: 234px;
+}
+
+.rowOne p{
+    text-align: justify;
 }
 .rowOne, .rowThreeOne, .rowFifth{
     display: flex;
@@ -61,13 +65,13 @@ header{
 }
 a{
     text-decoration: none;
-    color: rgb(230, 213, 247);
+    color: rgb(0, 0, 0);
     
 }
-#ceo, #nuestraEmpresa, #cotizador{
+.menu a{
     display: flex;
-    background-color: rgb(94, 84, 139);
-    width: 200px;
+    background-color: rgb(117, 109, 151);
+    width: 20%;
     height: 1.5em;
     border-radius: 5px;
     justify-content: center;
@@ -75,11 +79,14 @@ a{
       
 }
 
-#ceo:hover, #nuestraEmpresa:hover, #cotizador:hover{
+.menu a:hover{
     background-color: rgb(233, 114, 17);
       
 }
-
+.menu a:active{
+    color: white;
+      
+}
 
 .rowTwo, .rowFourth, .rowSixth {
     background-color: rgb(106, 154, 209);
@@ -122,11 +129,16 @@ a{
     background-color: orange;
     color: white;
     border: solid 2px rgb(106, 154, 209);
-    width: 200px;
+    width: 25%;
     margin: auto;
+    margin-top: 20px;
     padding: 20px;
+    text-align: justify;
     
     
+}
+.rowThree h3{
+    margin-top: 0;
 }
 .button{
     display: flex;
@@ -182,10 +194,28 @@ tr:nth-child(odd){
 
 
 .form{
+   
     max-width: 400px;
     margin: auto;
 }
-.footer{
+.formLeft{
+    text-align: left;
+    width: 50%;
+    float: left;
+    
+}
+.formRigth{
+    
+    width: 50%;
+    float: right;
+}
+
+.formCenter{
+    text-align: center;
+    width: 100%;
+}
+
+footer .footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -195,9 +225,6 @@ tr:nth-child(odd){
     max-width: 900px;
     margin: auto;
     padding: 0;
-    
-    
-    
 }
 
 .no-margin-bottom{
