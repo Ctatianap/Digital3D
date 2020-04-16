@@ -1,0 +1,125 @@
+html, body{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+    font-family: Cambria;
+    
+}
+main{
+    margin: auto;
+    max-width: 900px;
+    
+}
+
+.border{
+    border: solid 1px black;
+    padding: 15px;
+}
+.logotipo{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    padding: 20px;
+}
+
+header{
+    width: 100%;
+    background-color: white;
+    padding-left: 0;
+    padding-bottom: 0;
+    z-index: 10;
+    
+}
+.header{
+    max-width: 900px;
+    margin: auto;
+    padding: 0;
+
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+.menu a{
+    display: flex;
+    background-color: rgb(117, 109, 151);
+    width: 20%;
+    height: 1.5em;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center; 
+      
+}
+
+.menu a:hover{
+    background-color: rgb(233, 114, 17);
+      
+}
+.menu a:active{
+    color: white;
+      
+}
+.menu .menu_activo{
+    background-color: rgb(233, 114, 17);
+      
+}
+#quote{
+    width: 900px;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+
+.form{
+   
+    max-width: 400px;
+    margin: auto;
+    align-content: center;
+}
+#quote .formLeft{
+    text-align: left;
+    width: 50%;
+    float: left;
+    
+}
+#quote .formRigth{
+    
+    width: 50%;
+    float: right;
+}
+
+#quote .formCenter{
+    text-align: center;
+    width: 100%;
+    
+}
+
+footer .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:  center;
+    padding-right: 20%;
+    padding-left: 20%;
+    max-width: 900px;
+    margin: auto;
+    padding: 0;
+}
+
+.no-margin-bottom{
+    margin-bottom: 0;
+}
+
+
+
+
+

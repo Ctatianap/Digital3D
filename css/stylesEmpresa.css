@@ -24,27 +24,13 @@ main{
     padding: 20px;
 }
 
-.rowOne{
-    padding-top: 234px;
-}
-
-.rowOne p{
-    text-align: justify;
-}
-.rowOne, .rowThreeOne{
+.rowFifth{
     display: flex;
     flex-direction: row;
 }
 
-.rowThree{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    
-}
 header{
     width: 100%;
-    position: fixed;
     background-color: white;
     padding-left: 0;
     padding-bottom: 0;
@@ -92,17 +78,17 @@ a{
     background-color: rgb(233, 114, 17);
       
 }
-.rowTwo, .rowFourth{
+.rowTwo, .rowFourth, .rowSixth {
     background-color: rgb(106, 154, 209);
     color: white;
     align-items: center;
 }
 
-.rowPhoto{
+.rowPhotoOfice{
     flex-basis:  40%;
    
 }
-.photo{
+.photoOfice{
     padding: 20px;
     max-width: 300px;
 }
@@ -118,10 +104,6 @@ a{
     
 }
 
-.helpYou{
-    margin: auto;
-}
-
 .whatIDo, .ourTeam{
     margin: auto;
     text-align: center;
@@ -129,36 +111,9 @@ a{
     padding-right: 50px;
 }
 
-.litografico, .tienda, .web{
-    background-color: orange;
-    color: white;
-    border: solid 2px rgb(106, 154, 209);
-    width: 25%;
-    margin: auto;
-    margin-top: 20px;
-    padding: 20px;
-    text-align: justify;
-    
-    
-}
-.rowThree h3{
-    margin-top: 0;
-}
-.button{
-    display: flex;
-}
-
-button{
-    margin: auto;
-    color:  orange;
-    border: solid 2px black;
-    box-shadow:  2px 2px 0px rgba(0,0,0,1) ;
-}
-
-.tools{
+.rowSixth, .rowSeventh{
     text-align: center;
-    
-    
+
 }
 .table{
     display: flex;
@@ -180,14 +135,6 @@ tr:nth-child(odd){
     
 }
 
-
-.icons{
-    height: 100px;
-    width: 100px;
-    padding-left: 20px;
-    padding-right: 20px;
-
-}
 .hr-tittle{
     width: 200px;    
     height: 2px;

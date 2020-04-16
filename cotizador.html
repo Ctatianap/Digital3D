@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño Digital 3D</title>
+    <link rel="stylesheet" href="css/stylesCotizador.css" type="text/css">
+</head>
+
+<body>
+    <!--Header // Logotipo y Menu -->
+    <header>
+        <div class="header">
+            <div class="logotipo border">
+                <img class="logo" src="imagenes/logo.png">
+            </div>
+
+            <nav class="menu border">
+                <a  href="index.html">CEO</a>
+                <a  href="empresa.html">Nuestra Empresa</a>
+                <a class="menu_activo" href="cotizador.html">Cotizador</a>
+            </nav>
+
+        </div>
+    </header>
+    <!-- Main 8 Sesiones-->
+    <main>
+        <section class="border" id="quote">
+            <p>Realice una cotización de un pedido. con el valor unitario que usted concidere conveniente.</p>
+            <form class="form">
+                <div class="formLeft">
+                    <p>Cantidad: </p>
+                    <p>Valor unitario: </p>
+                    <p>Valor Total </p>
+
+                </div>
+                <div class="formRigth">
+                    <p><input type="number" min="0" name="cantidad"></p>
+                    <p><input type="number" min="0" name="valorUnidad"></p>
+                    <p>0 . 0</p>
+                </div>
+                <div class="formCenter">
+                    <p>Descripción del pedido</p>
+                    <textarea name="descripcion"></textarea>
+                    <p><input type="submit" value="enviar"></p>
+                </div>
+
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer border">
+            <p>Copyright &copy;2020 | Medellín </p> -
+            <a href="https://www.antioquia.gov.co/" target="_blank">Antioquia</a> |
+            <a href="empresa.html"> Nuestra Empresa</a> |
+            <a href="#"> Contacto</a>
+
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
