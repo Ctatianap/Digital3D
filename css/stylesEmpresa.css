@@ -159,6 +159,38 @@ footer .footer{
 }
 
 
+/*--- Estilos pag litografica */
+
+
+#sec_contenedor_lg{
+    width: auto;
+    height: auto;
+    background-color: orange;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+#sec_contenedor_lg img{
+    padding: 10px;
+
+}
+
+.cnt_img_lg{
+    background: #607d8b;
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    margin: 30px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+
 
 
 

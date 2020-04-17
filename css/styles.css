@@ -156,9 +156,7 @@ a{
 .boton_ver:hover{
     box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
     color: #4890cb;
-    
-    
-    
+ 
 }
 
 .tools{
@@ -217,8 +215,4 @@ footer .footer{
 .no-margin-bottom{
     margin-bottom: 0;
 }
-
-
-
-
 
